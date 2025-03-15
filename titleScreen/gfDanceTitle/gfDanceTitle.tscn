@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://ddnvwtmqkqmpr"]
+
+[ext_resource type="SpriteFrames" uid="uid://djtp67s4twfai" path="res://titleScreen/gfDanceTitle/gfDance.tres" id="1_cy62d"]
+
+[node name="GfDanceTitle" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("1_cy62d")
+animation = &"danceRight"
