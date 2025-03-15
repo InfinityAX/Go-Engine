@@ -1,3 +1,0 @@
-Mod Name = "FNF X Engine"
-Mod Version = "A"
-Mod Description = "An attempt to re-create FNF Psych Engine in GameMaker Studio 2 or something."

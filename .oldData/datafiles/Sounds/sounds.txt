@@ -1,6 +1,0 @@
-[MENUFUNK]
-SOUND_FILE0="freakyMenu"
-[MENUYES]
-SOUND_FILE0="confirmMenu"
-[MENUNO]
-SOUND_FILE0="cancelMenu"

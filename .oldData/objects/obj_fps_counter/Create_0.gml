@@ -1,1 +1,0 @@
-insert_log("FPS counter object created.");
