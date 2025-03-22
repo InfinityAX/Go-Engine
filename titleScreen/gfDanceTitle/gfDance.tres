@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=18 format=3 uid="uid://djtp67s4twfai"]
+[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://djtp67s4twfai"]
 
 [ext_resource type="Texture2D" uid="uid://jsjesfjrqd71" path="res://titleScreen/gfDanceTitle/gfDanceTitle.png" id="1_ggnkt"]
 
@@ -65,6 +65,26 @@ region = Rect2(2163, 1324, 721, 662)
 [sub_resource type="AtlasTexture" id="AtlasTexture_ld6a2"]
 atlas = ExtResource("1_ggnkt")
 region = Rect2(2884, 1324, 721, 662)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e6i0u"]
+atlas = ExtResource("1_ggnkt")
+region = Rect2(0, 1986, 721, 662)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v5u68"]
+atlas = ExtResource("1_ggnkt")
+region = Rect2(721, 1986, 721, 662)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dt61t"]
+atlas = ExtResource("1_ggnkt")
+region = Rect2(1442, 1986, 721, 662)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p0ouj"]
+atlas = ExtResource("1_ggnkt")
+region = Rect2(2163, 1986, 721, 662)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q5f3d"]
+atlas = ExtResource("1_ggnkt")
+region = Rect2(2884, 1986, 721, 662)
 
 [resource]
 animations = [{
@@ -136,13 +156,38 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ld6a2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e6i0u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v5u68")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dt61t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dt61t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dt61t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p0ouj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p0ouj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p0ouj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q5f3d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q5f3d")
 }],
 "loop": true,
 "name": &"danceRight",
 "speed": 24.0
-}, {
-"frames": [],
-"loop": true,
-"name": &"idle",
-"speed": 0.0
 }]
